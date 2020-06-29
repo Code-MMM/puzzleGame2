@@ -31,26 +31,24 @@ var franceImg, luxumImg, rusImg, box7, a7, label1, label2, label3, france, luxum
 var question8, a8, submitButton8, Box8, endScreen, endText;
 
 function preload() {
-    backgroundImg = loadImage("/gameSprites/Environment/background.png")
-    groundImg = loadImage("/gameSprites/Environment/bricks.png")
+    backgroundImg = loadImage("background.png")
+    groundImg = loadImage("bricks.png")
     doorImg = loadImage("door.png")
 
     franceImg = loadImage("France.png")
     rusImg = loadImage("Russia.png")
     luxumImg = loadImage("Luxumborg.png")
 
-    playerRun_1 = loadImage("/gameSprites/Player/Run (1).png")
-    playerRun_2 = loadImage("/gameSprites/Player/Run (2).png")
-    playerRun_3 = loadImage("/gameSprites/Player/Run (3).png")
-    playerRun_4 = loadImage("/gameSprites/Player/Run (4).png")
-    playerRun_5 = loadImage("/gameSprites/Player/Run (5).png")
+    playerRun_1 = loadImage("Run (1).png")
+    playerRun_2 = loadImage("Run (2).png")
+    playerRun_3 = loadImage("Run (3).png")
+    playerRun_4 = loadImage("Run (4).png")
+    playerRun_5 = loadImage("Run (5).png")
 
     playerIdle = loadAnimation("Idle (3).png", "Idle (6).png", "Idle (9).png", "Idle (12).png", "Idle (15).png");
     playerRun = loadAnimation(playerRun_1, playerRun_2, playerRun_3, playerRun_4, playerRun_5);
-    playerJump = loadAnimation("/gameSprites/Player/Jump (3).png", "/gameSprites/Player/Jump (6).png", "/gameSprites/Player/Jump (9).png", 
-    "/gameSprites/Player/Jump (12).png", "/gameSprites/Player/Jump (15).png");
-    playerRunL = loadAnimation("/gameSprites/Player/RunL (1).png", "/gameSprites/Player/RunL (2).png", "/gameSprites/Player/RunL (3).png", 
-    "/gameSprites/Player/RunL (4).png", "/gameSprites/Player/RunL (5).png")
+    playerJump = loadAnimation("Jump (3).png", "Jump (6).png", "Jump (9).png", "Jump (12).png", "Jump (15).png");
+    playerRunL = loadAnimation("RunL (1).png", "RunL (2).png", "RunL (3).png", "RunL (4).png", "RunL (5).png")
 
 }
 
